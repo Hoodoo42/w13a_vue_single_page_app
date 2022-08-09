@@ -1,37 +1,30 @@
 <template>
   <div id="app">
     <page-header></page-header>
-      <page-body></page-body>
+    <page-body></page-body>
     <page-footer></page-footer>
-  
   </div>
 </template>
 
 <script>
-import PageHeader from '@/components/PageHeader.vue'
-import PageBody from '@/components/PageBody.vue'
-import PageFooter from '@/components/PageFooter.vue'
-
+import PageHeader from "@/components/PageHeader.vue";
+import PageBody from "@/components/PageBody.vue";
+import PageFooter from "@/components/PageFooter.vue";
 
 export default {
-  components:{
+  components: {
     PageHeader,
     PageBody,
-    PageFooter
-   
-  }
-}
+    PageFooter,
+  },
+};
 </script>
 
 <style>
-
-#app{
-
-
+#app {
   display: grid;
-   
-    grid-template-rows: 100px auto 50px;
-    min-height: 100vh;
-}
 
+  grid-template-rows: 100px auto 50px;
+  min-height: 100vh;
+}
 </style>

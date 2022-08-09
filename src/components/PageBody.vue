@@ -4,7 +4,6 @@
     <p>Have a look around and let us know what you think!</p>
 
     <page-testimonials></page-testimonials>
-    
   </div>
 </template>
 
@@ -25,5 +24,4 @@ div {
   place-items: center;
   grid-template-rows: 50px 34px;
 }
-
 </style>
